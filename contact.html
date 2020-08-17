@@ -1,0 +1,71 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cedarville+Cursive">
+<title>Contact Me</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+<div class="header">
+  <h1>My Travel Diary</h1>
+  <p>Doing things that nourishes soul</p>
+</div>
+
+<div class="navbar">
+  <a href="/">Home</a>
+  <a href="/janakpur.html">Janakpur</a>
+  <a href="/gujrat.html">Gujrat</a>
+  <a href="/mustang.html">Mustang</a>
+  <a href="#" class="right">Contact Me</a>
+</div>
+
+<div class="row">
+  <div class="side">
+    <h2>About the Writer</h2>
+    <img src="profile.jpg" style="width:100%">
+    <p>Hello, I am undergraduate engineering student at VIT. I love travelling and this is my travel blog.</p>
+    <h3>Social Media Accounts</h3>
+    <ul>
+      <li><a href="https://www.facebook.com/profile.php?id=100005951806813" target="_blank">Facebook</a></li>
+      <li><a href="https://www.facebook.com/profile.php?id=100005951806813" target="_blank">Instagram</a></li>
+      <li><a href="https://www.facebook.com/profile.php?id=100005951806813" target="_blank">Linked In</a></li>
+
+    </ul>
+    
+  </div>
+  <div class="main">
+    <div class="container">
+      
+          <label for="fname">First Name(JS integrated to check length)</label>
+          <input type="text" id="fname" name="firstname" placeholder="Your name..">
+      
+          <label for="lname">Last Name</label>
+          <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+      
+          <label for="country">Country</label>
+          <select id="country" name="country">
+            <option value="australia">Australia</option>
+            <option value="canada">Canada</option>
+            <option value="usa">USA</option>
+          </select>
+      
+          <label for="subject">Subject</label>
+          <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+      
+          <input type="submit" value="Submit" onclick="stringlength(fname,6,8)">
+              </div> 
+  </div>
+</div>
+
+<div class="footer">
+  <h2>Footer</h2>
+</div>
+
+<script src="length.js">
+</script>
+</body>
+</html>
